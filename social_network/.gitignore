@@ -1,0 +1,169 @@
+# Python Bytecode
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.pyo
+*.pyd
+
+# Environment Variables
+.env
+.env.*
+
+# Virtual Environments
+venv/
+ENV/
+env/
+.venv/
+.ENV/
+
+# Django Specific
+*.log
+*.pot
+*.pyc
+*.so
+*.pyo
+*.log
+*.sqlite3
+db.sqlite3
+
+# Local Django settings
+local_settings.py
+
+# Media files
+media/
+
+# Static files
+static/
+staticfiles/
+
+# Django migrations
+**/migrations/
+*.mo
+*.pot
+
+# JetBrains IDEs (e.g., PyCharm)
+.idea/
+.idea/*
+
+# VS Code
+.vscode/
+.vscode/*
+
+# macOS files
+.DS_Store
+
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+
+# SQL database files
+*.db
+*.sqlite3
+
+# Secrets (e.g., AWS keys, secret keys)
+secrets.json
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+*.egg-info/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+# Usually these files are written by a python script from a template
+# before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# pyenv
+.python-version
+
+# pipenv
+# according to pypa/pipenv#598 it is recommended to include Pipfile.lock in version control.
+# However, in case you generate it manually, you should include Pipfile.lock in .gitignore too.
+# Pipfile.lock
+
+# Poetry
+poetry.lock
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.cache
+
+# Pyre type checker
+.pyre/
+
+# pyright type checker
+.pyright/
+
+# profiling data
+.prof
+
+# ipython
+.ipynb_checkpoints/
